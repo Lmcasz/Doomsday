@@ -1,0 +1,251 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Raleway:wght@300&display=swap");
+.navbar .collapse .navbar-nav .nav-item .nav-link {
+  color: #c2001d;
+  text-transform: uppercase;
+  font-size: 20px;
+  background-color: black;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  z-index: 9999; }
+
+.container-fluid .container__text_h2 {
+  color: black;
+  font-size: 3vw;
+  text-transform: uppercase;
+  background-color: black;
+  color: #c2001d;
+  margin-top: 1em;
+  padding: 1rem;
+  font-family: "Hind Siliguri", sans-serif;
+  text-shadow: -0.05em 0 white, 0.05em 0 cyan;
+  letter-spacing: 1em;
+  z-index: 1; }
+
+.container-fluid #container__row_text_h2 {
+  text-align: center; }
+
+.container-fluid #container__div_text_h1 {
+  padding: 1rem; }
+
+.container-fluid .container__text_h1 {
+  font-size: 4vw;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: black;
+  color: #c2001d;
+  font-family: "Hind Siliguri", sans-serif;
+  font-weight: bold;
+  margin-top: 1em;
+  padding: 1rem;
+  text-shadow: -0.05em 0 white, 0.05em 0 cyan;
+  letter-spacing: 1em; }
+
+.container .container__text_h2_her {
+  color: black;
+  font-size: 2vw;
+  text-transform: uppercase;
+  background-color: black;
+  color: #c2001d;
+  margin-top: 1em;
+  padding: 1rem;
+  font-family: "Hind Siliguri", sans-serif;
+  text-shadow: -0.05em 0 white, 0.05em 0 cyan;
+  letter-spacing: 1em; }
+
+.container #container__row_text_h2_her {
+  text-align: center; }
+
+.container .container__text_h3_her {
+  color: black;
+  font-size: 1.5vw;
+  text-transform: uppercase;
+  background-color: #c2001d;
+  padding: 1rem;
+  font-family: "Hind Siliguri", sans-serif;
+  text-shadow: -0.05em 0 white, 0.05em 0 cyan;
+  letter-spacing: 1em; }
+
+.container #container__row_text_h3_her {
+  text-align: center; }
+
+#copyright {
+  background-color: #333533;
+  margin: 0px;
+  height: 3vh; }
+  #copyright .copyright__text {
+    color: white;
+    font-size: 0.9rem;
+    margin: 0px;
+    height: 3vh;
+    font-family: "Raleway", sans-serif;
+    padding-top: 1vh; }
+
+.container .row .col-lg-4 .container__img_text {
+  border-radius: 1rem;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  font-weight: bolder;
+  color: #c2001d;
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px); }
+
+.container .row .col-lg-4 .container__img_text_her {
+  border-radius: 1rem;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-weight: bolder;
+  color: black; }
+
+.container .row .col .text-us {
+  font-family: "Hind Siliguri", sans-serif;
+  padding-top: 1em;
+  padding-bottom: 2em;
+  font-size: 2em;
+  font-weight: 800;
+  font-weight: black;
+  background-color: white;
+  text-align: center;
+  text-shadow: -0.05em 0 black, 0.02em 0 #c2001d; }
+
+.container .row .col-lg-4 .container__img_clothes {
+  max-width: 100%;
+  background-color: transparent; }
+
+.container .row .col-lg-4 .container__img_clothes:hover {
+  transition: 1s;
+  transform: scale(1.1); }
+
+.container .row .col-lg-4 .col-lg-4 {
+  padding: 10px; }
+
+.container .row .col-lg-4 .container__img {
+  max-width: 100%;
+  filter: grayscale(1);
+  z-index: 1;
+  margin: 1em; }
+
+.container .row .col-lg-4 .container__img:hover {
+  filter: none;
+  transition: 1s; }
+
+.container .row .col-lg-4 .col-lg-4 {
+  padding: 10px; }
+
+#her__container {
+  margin-top: 4em;
+  margin-bottom: 6em;
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px); }
+  #her__container .row .col-lg-4 .container__img_clothes_her {
+    max-width: 100%; }
+  #her__container .row .col-lg-4 .container__img_text_her {
+    font-family: "Poppins", sans-serif;
+    font-weight: bold; }
+  #her__container .row .container__img_clothes_her:hover {
+    transition: 5s;
+    transform: scale(2.2); }
+
+@media (max-width: 992px) {
+  #socialLogos {
+    margin-left: 80px; }
+  .follow-doomsday {
+    margin-left: 100px; }
+  .navbar {
+    height: 2vh; }
+    .navbar .container-fluid .navbar-brand img {
+      height: 20vh;
+      padding: 0px; } }
+
+@media (max-width: 768px) {
+  #socialLogos {
+    margin-left: 100px; }
+  .follow-doomsday {
+    margin-left: 100px; }
+  .navbar {
+    height: 2vh; }
+    .navbar .container-fluid .navbar-brand img {
+      height: 20vh;
+      padding: 0px; } }
+
+@media (max-width: 576px) {
+  #socialLogos {
+    width: 1rem; }
+  .navbar {
+    height: 2vh; }
+    .navbar .container-fluid .navbar-brand img {
+      height: 20vh;
+      padding: 0px; } }
+
+@media (max-width: 480px) {
+  #socialLogos {
+    width: 10px;
+    padding: 8px;
+    margin-left: 80px; }
+  .follow-doomsday {
+    font-size: 30px;
+    margin-left: 70px; }
+  .navbar {
+    height: 500px; }
+    .navbar .container-fluid .navbar-brand img {
+      height: 20vh;
+      padding: 0px; } }
+
+body {
+  background-image: url(https://i.pinimg.com/564x/d3/05/6c/d3056c0fa96d87d05becad9a4b3f993f.jpg); }
+
+.navbar {
+  height: 15vh;
+  min-height: 8vh; }
+  .navbar .container-fluid .navbar-brand img {
+    height: 20vh; }
+  .navbar .container-fluid .navbar-brand img:hover {
+    transition: 1s;
+    transform: scale(1.1); }
+
+#footer {
+  background-color: black; }
+
+.container__logos_redes .follow-doomsday {
+  font-weight: bold;
+  font-size: 1rem;
+  margin-top: 5rem;
+  text-transform: uppercase;
+  color: #c2001d;
+  font-family: "Hind Siliguri", sans-serif;
+  margin-left: 1vw; }
+
+.container__logos_redes #container__logos_redes_iconos {
+  padding: 1rem;
+  width: 4rem;
+  margin-top: 2rem;
+  color: white; }
+
+.container__logos_redes #container__logos_redes_iconos:hover {
+  color: #c2001d;
+  transition: 1s; }
+
+.col-lg-6 #container__logo_doomsday:hover {
+  transition: 1s;
+  transform: scale(1.1); }
+
+.col-lg-6 .nav .nav-item {
+  margin-bottom: 6vh; }
+  .col-lg-6 .nav .nav-item .item {
+    text-decoration: none;
+    margin-left: 2rem;
+    color: white; }
+  .col-lg-6 .nav .nav-item .item:hover {
+    color: #c2001d;
+    transition: 1s; }
+
+.mb-3 {
+  margin-top: 3vh;
+  margin-right: 2vw; }
+  .mb-3 .form-label {
+    color: white; }
+  .mb-3 .btn {
+    margin-top: 1vh; }

@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Raleway:wght@300&display=swap');
+@import "_texto.scss";
+@import "_imagenes.scss";
+@import "queries.scss";
+body {
+  background-image: url(https://i.pinimg.com/564x/d3/05/6c/d3056c0fa96d87d05becad9a4b3f993f.jpg);
+}
+.navbar {
+  height: 15vh;
+  min-height: 8vh;
+    .container-fluid {
+      .navbar-brand {
+        
+        img{
+          height: 20vh;
+        }
+        img:hover {
+          transition: 1s;
+          transform: scale(1.1);
+        }
+      }
+  }
+}
+#footer {
+  background-color: $color-secundario;
+}
+.container__logos_redes {
+  .follow-doomsday {
+    font-weight: bold;
+    font-size: 1rem;
+    margin-top: 5rem;
+    text-transform: uppercase;
+    color: $color-primario;
+    font-family: $fuente-secundario;
+    margin-left: 1vw;
+  }
+  #container__logos_redes_iconos {
+    padding: 1rem;
+    width: 4rem;
+    margin-top: 2rem;
+    color: $color-terciario;
+  }
+  #container__logos_redes_iconos:hover {
+    color: $color-primario;
+    transition: 1s;
+  }
+}
+
+.col-lg-6 {
+    #container__logo_doomsday:hover {
+        transition: 1s;
+        transform: scale(1.1);
+    }
+  .nav {
+    .nav-item {
+        margin-bottom: 6vh;
+      .item {
+        text-decoration: none;
+        margin-left: 2rem;
+        color: $color-terciario;
+      }
+      .item:hover {
+        color: $color-primario;
+        transition: 1s;
+      }
+    }
+  }
+}
+.mb-3 {
+        margin-top: 3vh;
+        margin-right: 2vw;
+    .form-label {
+        color: $color-terciario;
+    }
+    .btn {
+        margin-top: 1vh;
+    }
+}
