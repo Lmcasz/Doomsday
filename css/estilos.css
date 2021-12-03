@@ -111,6 +111,22 @@
   text-align: center;
   text-shadow: -0.05em 0 black, 0.02em 0 #c2001d; }
 
+header nav div {
+  width: 100%; }
+  header nav div a {
+    padding: 0px;
+    margin: 0px;
+    max-width: 500px;
+    min-width: 100px;
+    max-height: 400px;
+    min-height: 60px; }
+    header nav div a img {
+      max-width: 500px;
+      min-width: 100px;
+      max-height: 400px;
+      min-height: 60px;
+      margin: 0px; }
+
 .container .row .col-lg-4 .container__img_clothes {
   max-width: 100%;
   background-color: transparent; }
