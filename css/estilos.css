@@ -12,7 +12,7 @@
 
 .container-fluid .container__text_h2 {
   color: black;
-  font-size: 3vw;
+  font-size: 5vw;
   text-transform: uppercase;
   background-color: black;
   color: #c2001d;
@@ -111,21 +111,14 @@
   text-align: center;
   text-shadow: -0.05em 0 black, 0.02em 0 #c2001d; }
 
-header nav div {
-  width: 100%; }
-  header nav div a {
-    padding: 0px;
-    margin: 0px;
-    max-width: 500px;
-    min-width: 100px;
-    max-height: 400px;
-    min-height: 60px; }
-    header nav div a img {
-      max-width: 500px;
-      min-width: 100px;
-      max-height: 400px;
-      min-height: 60px;
-      margin: 0px; }
+header nav div a img {
+  padding: 0px;
+  margin: 0px;
+  width: 200px; }
+
+header nav div a #container__logo_doomsday {
+  height: 100px;
+  width: 300px; }
 
 .container .row .col-lg-4 .container__img_clothes {
   max-width: 100%;
@@ -174,41 +167,59 @@ header nav div {
     height: 2vh; }
     .navbar .container-fluid .navbar-brand img {
       height: 20vh;
-      padding: 0px; } }
+      padding: 0px; }
+  .container-fluid .container__text_h2 {
+    font-size: 4vh; }
+  header nav div a #container__logo_doomsday {
+    height: 80px;
+    width: 200px; } }
 
 @media (max-width: 768px) {
   #socialLogos {
-    margin-left: 100px; }
-  .follow-doomsday {
-    margin-left: 100px; }
-  .navbar {
-    height: 2vh; }
-    .navbar .container-fluid .navbar-brand img {
-      height: 20vh;
-      padding: 0px; } }
-
-@media (max-width: 576px) {
-  #socialLogos {
-    width: 1rem; }
-  .navbar {
-    height: 2vh; }
-    .navbar .container-fluid .navbar-brand img {
-      height: 20vh;
-      padding: 0px; } }
-
-@media (max-width: 480px) {
-  #socialLogos {
-    width: 10px;
-    padding: 8px;
     margin-left: 80px; }
   .follow-doomsday {
-    font-size: 30px;
-    margin-left: 70px; }
+    margin-left: 100px; }
   .navbar {
-    height: 500px; }
+    height: 2vh; }
     .navbar .container-fluid .navbar-brand img {
       height: 20vh;
-      padding: 0px; } }
+      padding: 0px; }
+  .container-fluid .container__text_h2 {
+    font-size: 4vh; }
+  header nav div a #container__logo_doomsday {
+    height: 80px;
+    width: 200px; } }
+
+@media (max-width: 576px) {
+  .navbar {
+    height: 2vh; }
+    .navbar .container-fluid .navbar-brand img {
+      height: 20vh;
+      padding: 0px; }
+  .container-fluid .container__text_h2 {
+    font-size: 4vh; }
+  header nav div a #container__logo_doomsday {
+    height: 80px;
+    width: 200px; } }
+
+@media (max-width: 480px) {
+  #footer .row .col-lg-4 .container__logos_redes {
+    margin-left: 25%;
+    margin-bottom: 70px; }
+    #footer .row .col-lg-4 .container__logos_redes .follow-doomsday {
+      margin-left: 30px; }
+  .navbar {
+    height: 2vh; }
+    .navbar .container-fluid .navbar-brand img {
+      height: 20vh;
+      padding: 0px; }
+  .container-fluid div .container__text_h2 {
+    font-size: 20px;
+    text-shadow: -0.02em 0 white, 0.02em 0 cyan;
+    font-weight: bolder; }
+  header nav div a #container__logo_doomsday {
+    height: 80px;
+    width: 200px; } }
 
 body {
   background-image: url(https://i.pinimg.com/564x/d3/05/6c/d3056c0fa96d87d05becad9a4b3f993f.jpg); }

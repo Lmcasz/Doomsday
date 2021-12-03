@@ -17,64 +17,138 @@
             }
           }
       }
+      .container-fluid {
+        .container__text_h2 {
+          font-size: 4vh;
+        }
     }
+    header {
+      nav {
+          div {
+              a {
+                  #container__logo_doomsday {
+                      height: 80px;
+                      width: 200px;
+                  }
+              }
+          }
+      }
+  }
+  }
 @media (max-width: 768px) { 
-    #socialLogos {
-        margin-left: 100px;
+  #socialLogos {
+    margin-left: 80px;
+}
+.follow-doomsday {
+    margin-left: 100px;
+}
+.navbar {
+    height: 2vh;
+      .container-fluid {
+        .navbar-brand {
+          
+          img{
+            height: 20vh;
+            padding: 0px;
+          }
+        }
+      }
+  }
+  .container-fluid {
+    .container__text_h2 {
+      font-size: 4vh;
     }
-    .follow-doomsday {
-        margin-left: 100px;
-    }
-    .navbar {
-        height: 2vh;
-          .container-fluid {
-            .navbar-brand {
-              
-              img{
-                height: 20vh;
-                padding: 0px;
+}
+header {
+  nav {
+      div {
+          a {
+              #container__logo_doomsday {
+                  height: 80px;
+                  width: 200px;
               }
-            }
           }
       }
- }
+  }
+}
+}
 @media (max-width: 576px) { 
-    #socialLogos {
-        width: 1rem;
+
+.navbar {
+    height: 2vh;
+      .container-fluid {
+        .navbar-brand {
+          
+          img{
+            height: 20vh;
+            padding: 0px;
+          }
+        }
+      }
+  }
+  .container-fluid {
+    .container__text_h2 {
+      font-size: 4vh;
     }
-    .navbar {
-        height: 2vh;
-          .container-fluid {
-            .navbar-brand {
-              
-              img{
-                height: 20vh;
-                padding: 0px;
+}
+header {
+  nav {
+      div {
+          a {
+              #container__logo_doomsday {
+                  height: 80px;
+                  width: 200px;
               }
-            }
           }
       }
- }
+  }
+}
+}
  @media (max-width: 480px) { 
-    #socialLogos {
-        width: 10px;
-        padding: 8px;
-        margin-left: 80px;
+   #footer {
+     .row {
+       .col-lg-4 {
+        .container__logos_redes {
+          margin-left: 25%;
+          margin-bottom: 70px;
+          .follow-doomsday {
+            margin-left: 30px;
+          }
+        }
+       }
+     }
+   }
+.navbar {
+    height: 2vh;
+      .container-fluid {
+        .navbar-brand {
+          
+          img{
+            height: 20vh;
+            padding: 0px;
+          }
+        }
+      }
+  }
+  .container-fluid {
+    div {
+    .container__text_h2 {
+      font-size: 20px;
+      text-shadow: -0.02em 0 white, 0.02em 0 cyan;
+      font-weight: bolder;
     }
-    .follow-doomsday {
-        font-size: 30px;
-        margin-left: 70px;
-    }
-    .navbar {
-        height: 500px;
-          .container-fluid {
-            .navbar-brand {
-              
-              img{
-                height: 20vh;
-                padding: 0px;
+  }
+}
+header {
+  nav {
+      div {
+          a {
+              #container__logo_doomsday {
+                  height: 80px;
+                  width: 200px;
               }
-            }
           }
       }
- }
+  }
+}
+}
