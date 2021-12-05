@@ -12,7 +12,7 @@
 
 .container-fluid .container__text_h2 {
   color: black;
-  font-size: 5vw;
+  font-size: 4vw;
   text-transform: uppercase;
   background-color: black;
   color: #c2001d;
@@ -115,6 +115,11 @@ header nav div a img {
   padding: 0px;
   margin: 0px;
   width: 200px; }
+
+footer #footer .row .col-lg-6 #container__logo-footer {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding-left: 8%; }
 
 header nav div a #container__logo_doomsday {
   height: 100px;
@@ -329,3 +334,7 @@ body {
     color: white; }
   .mb-3 .btn {
     margin-top: 1vh; }
+
+header .navbar .container-fluid .collapse .navbar-nav .nav-item:hover {
+  color: #c2001d;
+  transition: 1s; }

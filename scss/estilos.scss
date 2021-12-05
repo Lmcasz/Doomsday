@@ -79,3 +79,17 @@ body {
         margin-top: 1vh;
     }
 }
+header {
+  .navbar {
+    .container-fluid {
+      .collapse {
+        .navbar-nav {
+        .nav-item:hover {
+          color: $color-primario;
+          transition: 1s;
+        }
+      }
+    }
+  }
+}
+}
