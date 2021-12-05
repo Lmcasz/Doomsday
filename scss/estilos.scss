@@ -79,17 +79,23 @@ body {
         margin-top: 1vh;
     }
 }
-header {
-  .navbar {
-    .container-fluid {
-      .collapse {
-        .navbar-nav {
-        .nav-item:hover {
-          color: $color-primario;
-          transition: 1s;
-        }
+
+.collapse {
+  .navbar-nav {
+    .nav-item {
+      .nav-link:hover {
+        color: white;
       }
     }
   }
-}
+  .dropdown-menu {
+    background-color: black;
+    .dropdown-item {
+      color:white;
+    }
+    .dropdown-item:hover {
+      background-color: white;
+      color: red;
+    }
+  }
 }

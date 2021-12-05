@@ -335,6 +335,13 @@ body {
   .mb-3 .btn {
     margin-top: 1vh; }
 
-header .navbar .container-fluid .collapse .navbar-nav .nav-item:hover {
-  color: #c2001d;
-  transition: 1s; }
+.collapse .navbar-nav .nav-item .nav-link:hover {
+  color: white; }
+
+.collapse .dropdown-menu {
+  background-color: black; }
+  .collapse .dropdown-menu .dropdown-item {
+    color: white; }
+  .collapse .dropdown-menu .dropdown-item:hover {
+    background-color: white;
+    color: red; }
