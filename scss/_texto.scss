@@ -75,12 +75,12 @@ $contraste: "Poppins", sans-serif;
     color: $color-primario;
     margin-top: 1em;
     padding: 1rem;
+    letter-spacing: 1em;
     font-family: $fuente-secundario;
     text-shadow:
     0 0 17px $color-primario,
     0 0 30px $color-primario,
-    0 0 50px $color-primario;
-    letter-spacing: 1em;
+    0 0 50px $color-primario,
   }
   #container__row_text_h2_her {
     text-align: center;

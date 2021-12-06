@@ -51,9 +51,9 @@
   color: #c2001d;
   margin-top: 1em;
   padding: 1rem;
+  letter-spacing: 1em;
   font-family: "Hind Siliguri", sans-serif;
-  text-shadow: 0 0 17px #c2001d, 0 0 30px #c2001d, 0 0 50px #c2001d;
-  letter-spacing: 1em; }
+  text-shadow: 0 0 17px #c2001d, 0 0 30px #c2001d, 0 0 50px #c2001d; }
 
 .container #container__row_text_h2_her {
   text-align: center; }
