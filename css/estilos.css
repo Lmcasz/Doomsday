@@ -19,7 +19,7 @@
   margin-top: 1em;
   padding: 1rem;
   font-family: "Hind Siliguri", sans-serif;
-  text-shadow: -0.03em 0 white, 0.03em 0 cyan;
+  text-shadow: 0 0 17px #c2001d, 0 0 47px #c2001d, 0 0 107px #c2001d;
   letter-spacing: 1em;
   z-index: 1; }
 
@@ -27,7 +27,7 @@
   text-align: center; }
 
 .container-fluid #container__div_text_h1 {
-  padding: 1rem; }
+  padding: 2rem; }
 
 .container-fluid .container__text_h1 {
   font-size: 4vw;
@@ -39,15 +39,9 @@
   font-weight: bold;
   margin-top: 1em;
   padding: 1rem;
-  animation: neonAnim 4s alternate-reverse infinite;
-  color: white;
+  text-shadow: 0 0 17px #c2001d, 0 0 30px #c2001d, 0 0 50px #c2001d;
+  color: #c2001d;
   letter-spacing: 1em; }
-
-@keyframes neonAnim {
-  from {
-    text-shadow: 0 0 17px #c2001d, 0 0 47px #c2001d, 0 0 107px #c2001d; }
-  to {
-    text-shadow: 0 0 12px white, 0 0 27px white, 0 0 67px white; } }
 
 .container .container__text_h2_her {
   color: black;
@@ -58,7 +52,7 @@
   margin-top: 1em;
   padding: 1rem;
   font-family: "Hind Siliguri", sans-serif;
-  text-shadow: -0.05em 0 white, 0.05em 0 cyan;
+  text-shadow: 0 0 17px #c2001d, 0 0 30px #c2001d, 0 0 50px #c2001d;
   letter-spacing: 1em; }
 
 .container #container__row_text_h2_her {
@@ -216,74 +210,11 @@ header nav div a #container__logo_doomsday {
     height: 80px;
     width: 200px; } }
 
-@media (max-width: 480px) {
-  #footer .row .col-lg-4 .container__logos_redes {
-    margin-left: 25%;
-    margin-bottom: 70px; }
-    #footer .row .col-lg-4 .container__logos_redes .follow-doomsday {
-      margin-left: 30px; }
-  .navbar {
-    height: 2vh; }
-    .navbar .container-fluid .navbar-brand img {
-      height: 20vh;
-      padding: 0px; }
-  .container-fluid div .container__text_h2 {
-    font-size: 20px;
-    text-shadow: -0.02em 0 white, 0.02em 0 cyan;
-    font-weight: bolder; }
-  header nav div a #container__logo_doomsday {
-    height: 80px;
-    width: 200px; } }
-
-@media (max-width: 480px) {
-  #footer .row .col-lg-4 .container__logos_redes {
-    margin-left: 25%;
-    margin-bottom: 70px; }
-    #footer .row .col-lg-4 .container__logos_redes .follow-doomsday {
-      margin-left: 30px; }
-  .navbar {
-    height: 2vh; }
-    .navbar .container-fluid .navbar-brand img {
-      height: 20vh;
-      padding: 0px; }
-  .container-fluid div .container__text_h2 {
-    font-size: 20px;
-    text-shadow: -0.02em 0 white, 0.02em 0 cyan;
-    font-weight: bolder; }
-  header nav div a #container__logo_doomsday {
-    height: 80px;
-    width: 200px; } }
-
-@media (max-width: 576px) {
-  .navbar {
-    height: 2vh; }
-    .navbar .container-fluid .navbar-brand img {
-      height: 20vh;
-      padding: 0px; }
+@media (max-width: 320px) {
   .container-fluid .container__text_h2 {
-    font-size: 4vh; }
-  header nav div a #container__logo_doomsday {
-    height: 80px;
-    width: 200px; } }
-
-@media (max-width: 480px) {
-  #footer .row .col-lg-4 .container__logos_redes {
-    margin-left: 25%;
-    margin-bottom: 70px; }
-    #footer .row .col-lg-4 .container__logos_redes .follow-doomsday {
-      margin-left: 30px; }
-  .navbar {
-    height: 2vh; }
-    .navbar .container-fluid .navbar-brand img {
-      height: 20vh;
-      padding: 0px; }
-  .container-fluid div .container__text_h2 {
-    font-size: 20px;
-    text-shadow: -0.02em 0 white, 0.02em 0 cyan;
-    font-weight: bolder; }
-  header nav div a #container__logo_doomsday {
-    height: 80px;
-    width: 200px; } }
+    font-size: 15px; }
+  .container-fluid #container__row_text_h2 {
+    text-align: center; } }
 
 body {
   background-image: url(https://i.pinimg.com/564x/d3/05/6c/d3056c0fa96d87d05becad9a4b3f993f.jpg); }
@@ -350,4 +281,4 @@ body {
     color: white; }
   .collapse .dropdown-menu .dropdown-item:hover {
     background-color: white;
-    color: redgit; }
+    color: red; }
