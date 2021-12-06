@@ -75,8 +75,6 @@ header {
 #her__container {
     margin-top: 4em;
     margin-bottom: 6em;
-    backdrop-filter: blur(2px);
-    -webkit-backdrop-filter: blur(2px);
     .row {
         .col-lg-4 {
             .container__img_clothes_her {
@@ -84,12 +82,14 @@ header {
             }
             .container__img_text_her {
                 font-family: $contraste;
-                font-weight: bold;
+                font-size: 14px;
+                color: $color-primario;
+                background-color: black;
             }
         }
         .container__img_clothes_her:hover {
-            transition: 5s;
-            transform: scale(2.2);
+            transition: 2s;
+            transform: scale(1.1);
         }
 }
 }

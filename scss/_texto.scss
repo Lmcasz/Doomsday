@@ -26,14 +26,14 @@ $contraste: "Poppins", sans-serif;
 .container-fluid {
   .container__text_h2 {
     color: $color-secundario;
-    font-size: 4vw;
+    font-size: 3vw;
     text-transform: uppercase;
     background-color: $color-secundario;
     color: $color-primario;
     margin-top: 1em;
     padding: 1rem;
     font-family: $fuente-secundario;
-    text-shadow: -0.05em 0 white, 0.05em 0 cyan;
+    text-shadow: -0.03em 0 white, 0.03em 0 cyan;
     letter-spacing: 1em;
     z-index: 1;
   }
@@ -55,14 +55,29 @@ $contraste: "Poppins", sans-serif;
     font-weight: bold;
     margin-top: 1em;
     padding: 1rem;
-    text-shadow: -0.05em 0 white, 0.05em 0 cyan;
+    animation: neonAnim 4s alternate-reverse infinite;
+    color: $color-terciario;
     letter-spacing: 1em;
   }
+  @keyframes neonAnim {
+    from {
+        text-shadow:
+          0 0 17px $color-primario,
+          0 0 47px $color-primario,
+          0 0 107px $color-primario;
+      }
+      to {
+        text-shadow:
+          0 0 12px $color-terciario,
+          0 0 27px $color-terciario,
+          0 0 67px $color-terciario;
+      }
+}
 }
 .container {
   .container__text_h2_her {
     color: $color-secundario;
-    font-size: 2vw;
+    font-size: 40px;
     text-transform: uppercase;
     background-color: $color-secundario;
     color: $color-primario;
@@ -77,13 +92,13 @@ $contraste: "Poppins", sans-serif;
   }
   .container__text_h3_her {
     color: $color-secundario;
-    font-size: 1.5vw;
+    font-size: 20px;
     text-transform: uppercase;
     background-color: $color-primario;
     padding: 1rem;
     font-family: $fuente-secundario;
-    text-shadow: -0.05em 0 white, 0.05em 0 cyan;
     letter-spacing: 1em;
+    font-weight: bold;
   }
   #container__row_text_h3_her {
     text-align: center;
@@ -117,7 +132,6 @@ $contraste: "Poppins", sans-serif;
         -webkit-backdrop-filter: blur(2px);
       }
       .container__img_text_her {
-        border-radius: 1rem;
         text-align: center;
         font-family: $fuente-terciaria;
         text-transform: uppercase;
