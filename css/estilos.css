@@ -22,18 +22,18 @@
   text-shadow: 0 0 17px #c2001d, 0 0 47px #c2001d, 0 0 107px #c2001d;
   letter-spacing: 1em;
   z-index: 1;
-  white-space: nowrap; }
+  white-space: wrap; }
 
 .container-fluid #container__row_text_h2 {
   text-align: center; }
 
 .container-fluid .row .container__text_h1 {
-  background-size: 270px;
+  background-size: 10em;
   background-repeat: repeat-x;
   -webkit-background-clip: text;
-  animation: animate 15s linear infinite;
-  font-size: 150px;
-  color: rgba(255, 255, 255, 0.2);
+  animation: animate 60s linear infinite;
+  font-size: 8em;
+  color: rgba(255, 0, 0, 0.548);
   background-image: url(https://ih1.redbubble.net/image.835574599.9545/flat,750x1000,075,f.jpg); }
 
 .container-fluid .container__text_h1 {
@@ -44,7 +44,7 @@
 
 .container-fluid .h1-card {
   background-color: black;
-  margin: 2em; }
+  margin: 1em; }
 
 @keyframes animate {
   0% {
@@ -217,7 +217,11 @@ header nav div a #container__logo_doomsday {
     font-size: 4vh; }
   header nav div a #container__logo_doomsday {
     height: 80px;
-    width: 200px; } }
+    width: 200px; }
+  .container-fluid .row .container__text_h1 {
+    font-size: 4em; }
+  .container-fluid .container__text_h2 {
+    font-size: 3em; } }
 
 @media (max-width: 480px) {
   #footer .row .col-lg-4 .container__logos_redes {
@@ -225,6 +229,10 @@ header nav div a #container__logo_doomsday {
     margin-bottom: 70px; }
     #footer .row .col-lg-4 .container__logos_redes .follow-doomsday {
       margin-left: 30px; }
+  .container-fluid .row .container__text_h1 {
+    font-size: 3em; }
+  .container-fluid .container__text_h2 {
+    font-size: 2em; }
   .navbar {
     height: 2vh; }
     .navbar .container-fluid .navbar-brand img {
@@ -242,7 +250,9 @@ header nav div a #container__logo_doomsday {
   .container-fluid .container__text_h2 {
     font-size: 15px; }
   .container-fluid #container__row_text_h2 {
-    text-align: center; } }
+    text-align: center; }
+  .container-fluid .row .container__text_h1 {
+    font-size: 3em; } }
 
 body {
   background-image: url(https://i.pinimg.com/564x/d3/05/6c/d3056c0fa96d87d05becad9a4b3f993f.jpg); }

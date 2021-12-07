@@ -65,6 +65,14 @@ header {
       }
   }
 }
+.container-fluid {
+  .row .container__text_h1 {
+    font-size: 4em;
+  }
+    .container__text_h2 {
+      font-size: 3em;
+    }
+}
 }
  @media (max-width: 480px) { 
    #footer {
@@ -80,6 +88,14 @@ header {
        }
      }
    }
+   .container-fluid {
+    .row .container__text_h1 {
+      font-size: 3em;
+    }
+      .container__text_h2 {
+        font-size: 2em;
+      }
+  }
 .navbar {
     height: 2vh;
       .container-fluid {
@@ -122,5 +138,11 @@ header {
     #container__row_text_h2 {
       text-align: center;
     }
+  }
+  .container-fluid {
+    .row .container__text_h1 {
+      font-size: 3em;
+    }
+
   }
 }
