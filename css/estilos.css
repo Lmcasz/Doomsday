@@ -12,7 +12,7 @@
 
 .container-fluid .container__text_h2 {
   color: black;
-  font-size: 3vw;
+  font-size: 4em;
   text-transform: uppercase;
   background-color: black;
   color: #c2001d;
@@ -21,31 +21,40 @@
   font-family: "Hind Siliguri", sans-serif;
   text-shadow: 0 0 17px #c2001d, 0 0 47px #c2001d, 0 0 107px #c2001d;
   letter-spacing: 1em;
-  z-index: 1; }
+  z-index: 1;
+  white-space: nowrap; }
 
 .container-fluid #container__row_text_h2 {
   text-align: center; }
 
-.container-fluid #container__div_text_h1 {
-  padding: 2rem; }
+.container-fluid .row .container__text_h1 {
+  background-size: 270px;
+  background-repeat: repeat-x;
+  -webkit-background-clip: text;
+  animation: animate 15s linear infinite;
+  font-size: 150px;
+  color: rgba(255, 255, 255, 0.2);
+  background-image: url(https://ih1.redbubble.net/image.835574599.9545/flat,750x1000,075,f.jpg); }
 
 .container-fluid .container__text_h1 {
-  font-size: 4vw;
-  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-weight: bolder;
   text-transform: uppercase;
+  text-align: center; }
+
+.container-fluid .h1-card {
   background-color: black;
-  color: #c2001d;
-  font-family: "Hind Siliguri", sans-serif;
-  font-weight: bold;
-  margin-top: 1em;
-  padding: 1rem;
-  text-shadow: 0 0 17px #c2001d, 0 0 30px #c2001d, 0 0 50px #c2001d;
-  color: #c2001d;
-  letter-spacing: 1em; }
+  margin: 2em; }
+
+@keyframes animate {
+  0% {
+    background-position: left 0px top 0px; }
+  40% {
+    background-position: left 800px top 0px; } }
 
 .container .container__text_h2_her {
   color: black;
-  font-size: 40px;
+  font-size: 4em;
   text-transform: uppercase;
   background-color: black;
   color: #c2001d;
@@ -100,16 +109,28 @@
   font-weight: bolder;
   color: black; }
 
-.container .row .col .text-us {
-  font-family: "Hind Siliguri", sans-serif;
-  padding-top: 1em;
-  padding-bottom: 2em;
-  font-size: 2em;
-  font-weight: 800;
-  font-weight: black;
-  background-color: white;
-  text-align: center;
-  text-shadow: -0.05em 0 black, 0.02em 0 #c2001d; }
+.container .row .col {
+  background-image: url(https://i.pinimg.com/originals/30/89/32/3089327d41ec6ede2cf3ea1d31e9488c.jpg); }
+  .container .row .col .text-us {
+    font-size: 1em;
+    font-weight: 800;
+    font-weight: black;
+    text-align: center;
+    width: 100%;
+    animation: typing 2s steps(22), 0.5s step-end infinite alternate;
+    white-space: wrap;
+    overflow: hidden;
+    font-family: monospace;
+    color: white; }
+  .container .row .col .text-us-important {
+    color: #c2001d;
+    text-align: center;
+    font-size: 2em;
+    font-family: "Hind Siliguri", sans-serif; }
+
+@keyframes typing {
+  from {
+    width: 0; } }
 
 header nav div a img {
   padding: 0px;
@@ -135,6 +156,13 @@ header nav div a #container__logo_doomsday {
 
 .container .row .col-lg-4 .col-lg-4 {
   padding: 10px; }
+
+.container .row .col-lg-4 .container__img_text {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  color: #c2001d;
+  background-color: black;
+  border-radius: 0px; }
 
 .container .row .col-lg-4 .container__img {
   max-width: 100%;
@@ -250,7 +278,7 @@ body {
   color: #c2001d;
   transition: 1s; }
 
-.col-lg-6 #container__logo_doomsday:hover {
+.col-lg-6 #container__logo-footer:hover {
   transition: 1s;
   transform: scale(1.1); }
 
@@ -278,7 +306,9 @@ body {
 .collapse .dropdown-menu {
   background-color: black; }
   .collapse .dropdown-menu .dropdown-item {
-    color: white; }
+    color: white;
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase; }
   .collapse .dropdown-menu .dropdown-item:hover {
     background-color: white;
     color: red; }

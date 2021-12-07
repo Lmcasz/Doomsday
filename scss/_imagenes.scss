@@ -50,6 +50,13 @@ header {
             .col-lg-4 {
                 padding: 10px;
             }
+            .container__img_text {
+                font-family: $contraste;
+                font-size: 14px;
+                color: $color-primario;
+                background-color: black;
+                border-radius: 0px;
+            }
         }
     }
 }

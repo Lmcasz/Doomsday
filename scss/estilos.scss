@@ -50,7 +50,7 @@ body {
 }
 
 .col-lg-6 {
-    #container__logo_doomsday:hover {
+    #container__logo-footer:hover {
         transition: 1s;
         transform: scale(1.1);
     }
@@ -92,6 +92,8 @@ body {
     background-color: black;
     .dropdown-item {
       color:white;
+      font-family: $fuente-terciaria;
+      text-transform: uppercase;
     }
     .dropdown-item:hover {
       background-color: white;

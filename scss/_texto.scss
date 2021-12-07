@@ -26,7 +26,7 @@ $contraste: "Poppins", sans-serif;
 .container-fluid {
   .container__text_h2 {
     color: $color-secundario;
-    font-size: 3vw;
+    font-size: 4em;
     text-transform: uppercase;
     background-color: $color-secundario;
     color: $color-primario;
@@ -39,37 +39,45 @@ $contraste: "Poppins", sans-serif;
           0 0 107px $color-primario;
     letter-spacing: 1em;
     z-index: 1;
+    white-space: nowrap;
   }
   #container__row_text_h2 {
     text-align: center;
   }
 }
 .container-fluid {
-  #container__div_text_h1 {
-    padding: 2rem;
+  .row .container__text_h1 {
+    background-size: 270px;
+    background-repeat: repeat-x;
+    -webkit-background-clip: text;
+    animation: animate 15s linear infinite;
+    font-size: 150px;
+    color: rgba(255,255,255,.2);
+    background-image: url(https://ih1.redbubble.net/image.835574599.9545/flat,750x1000,075,f.jpg);
   }
   .container__text_h1 {
-    font-size: 4vw;
-    text-align: center;
+    font-family: $fuente-terciaria;
+    font-weight: bolder;
     text-transform: uppercase;
-    background-color: $color-secundario;
-    color: $color-primario;
-    font-family: $fuente-secundario;
-    font-weight: bold;
-    margin-top: 1em;
-    padding: 1rem;
-    text-shadow:
-    0 0 17px $color-primario,
-    0 0 30px $color-primario,
-    0 0 50px $color-primario;
-    color: $color-primario;
-    letter-spacing: 1em;
+    text-align: center;
+  }
+  .h1-card{
+    background-color: black;
+    margin: 2em;
+  }
+}
+@keyframes animate {
+  0% {
+    background-position: left 0px top 0px;
+  }
+  40% {
+    background-position: left 800px top 0px;
   }
 }
 .container {
   .container__text_h2_her {
     color: $color-secundario;
-    font-size: 40px;
+    font-size: 4em;
     text-transform: uppercase;
     background-color: $color-secundario;
     color: $color-primario;
@@ -139,18 +147,30 @@ $contraste: "Poppins", sans-serif;
 .container {
   .row {
     .col {
+      background-image: url(https://i.pinimg.com/originals/30/89/32/3089327d41ec6ede2cf3ea1d31e9488c.jpg);
       .text-us {
-          font-family: $fuente-secundario;
-          padding-top: 1em;
-          padding-bottom: 2em;
-          font-size: 2em;
+          font-size: 1em;
           font-weight: 800;
           font-weight: $color-secundario;
-          background-color: white;
           text-align: center;
-          text-shadow: -0.05em 0 black, 0.02em 0 $color-primario;
-        
-      }
+          width: 100%;
+        animation: typing 2s steps(22), .5s step-end infinite alternate;
+        white-space: wrap;
+        overflow: hidden;
+        font-family: monospace;
+        color: $color-terciario;
+    }
+    .text-us-important {
+      color: $color-primario;
+      text-align: center;
+      font-size: 2em;
+      font-family: $fuente-secundario;
     }
   }
 }
+}
+@keyframes typing {
+  from {
+    width: 0
+  }
+} 
