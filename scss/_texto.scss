@@ -40,6 +40,7 @@ $contraste: "Poppins", sans-serif;
     letter-spacing: 1em;
     z-index: 1;
     white-space: wrap;
+    height: fit-content;
   }
   #container__row_text_h2 {
     text-align: center;
@@ -64,6 +65,7 @@ $contraste: "Poppins", sans-serif;
   .h1-card{
     background-color: black;
     margin:1em;
+    height: fit-content;
   }
 }
 @keyframes animate {
@@ -78,6 +80,7 @@ $contraste: "Poppins", sans-serif;
   .container__text_h2_her {
     color: $color-secundario;
     font-size: 4em;
+    height: fit-content;
     text-transform: uppercase;
     background-color: $color-secundario;
     color: $color-primario;

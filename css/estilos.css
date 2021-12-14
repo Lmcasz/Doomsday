@@ -22,7 +22,8 @@
   text-shadow: 0 0 17px #c2001d, 0 0 47px #c2001d, 0 0 107px #c2001d;
   letter-spacing: 1em;
   z-index: 1;
-  white-space: wrap; }
+  white-space: wrap;
+  height: fit-content; }
 
 .container-fluid #container__row_text_h2 {
   text-align: center; }
@@ -44,7 +45,8 @@
 
 .container-fluid .h1-card {
   background-color: black;
-  margin: 1em; }
+  margin: 1em;
+  height: fit-content; }
 
 @keyframes animate {
   0% {
@@ -55,6 +57,7 @@
 .container .container__text_h2_her {
   color: black;
   font-size: 4em;
+  height: fit-content;
   text-transform: uppercase;
   background-color: black;
   color: #c2001d;
@@ -192,6 +195,8 @@ header nav div a #container__logo_doomsday {
     transform: scale(1.1); }
 
 @media (max-width: 992px) {
+  .navbar #container__logo_doomsday {
+    width: 250px; }
   #socialLogos {
     margin-left: 80px; }
   .follow-doomsday {
@@ -205,7 +210,13 @@ header nav div a #container__logo_doomsday {
     font-size: 4vh; }
   header nav div a #container__logo_doomsday {
     height: 80px;
-    width: 200px; } }
+    width: 200px; }
+  .container__logos_redes {
+    text-align: center; }
+  .col-lg-6 {
+    text-align: center; }
+    .col-lg-6 .nav {
+      justify-content: center; } }
 
 @media (max-width: 768px) {
   .navbar {
@@ -213,22 +224,33 @@ header nav div a #container__logo_doomsday {
     .navbar .container-fluid .navbar-brand img {
       height: 20vh;
       padding: 0px; }
+    .navbar #container__logo_doomsday {
+      width: 210px;
+      height: 60px; }
   .container-fluid .container__text_h2 {
     font-size: 4vh; }
-  header nav div a #container__logo_doomsday {
-    height: 80px;
-    width: 200px; }
   .container-fluid .row .container__text_h1 {
     font-size: 4em; }
   .container-fluid .container__text_h2 {
-    font-size: 3em; } }
+    font-size: 3em; }
+  .container .container__text_h2_her {
+    font-size: 2.5em; }
+  .container #container__row_text_h2_her {
+    text-align: center; }
+  .container .container__text_h3_her {
+    font-size: 15px; }
+  .container__logos_redes {
+    text-align: center;
+    margin-bottom: 40px; }
+  .col-lg-6 {
+    text-align: center; }
+    .col-lg-6 #container__logo-footer {
+      width: 300px;
+      margin-right: 30px; }
+    .col-lg-6 .nav {
+      justify-content: center; } }
 
 @media (max-width: 480px) {
-  #footer .row .col-lg-4 .container__logos_redes {
-    margin-left: 25%;
-    margin-bottom: 70px; }
-    #footer .row .col-lg-4 .container__logos_redes .follow-doomsday {
-      margin-left: 30px; }
   .container-fluid .row .container__text_h1 {
     font-size: 3em; }
   .container-fluid .container__text_h2 {
@@ -244,15 +266,39 @@ header nav div a #container__logo_doomsday {
     font-weight: bolder; }
   header nav div a #container__logo_doomsday {
     height: 80px;
-    width: 200px; } }
+    width: 200px; }
+  .container .container__text_h2_her {
+    font-size: 2em; }
+  .container #container__row_text_h2_her {
+    text-align: center; }
+  .container .container__text_h3_her {
+    font-size: 20px; }
+  .container__logos_redes {
+    text-align: center; }
+  .col-lg-6 {
+    text-align: center; }
+    .col-lg-6 .nav {
+      justify-content: center; } }
 
-@media (max-width: 320px) {
+@media (max-width: 360px) {
   .container-fluid .container__text_h2 {
     font-size: 15px; }
   .container-fluid #container__row_text_h2 {
     text-align: center; }
   .container-fluid .row .container__text_h1 {
-    font-size: 3em; } }
+    font-size: 3em; }
+  .container .container__text_h2_her {
+    font-size: 1.5em; }
+  .container #container__row_text_h2_her {
+    text-align: center; }
+  .container .container__text_h3_her {
+    font-size: 15px; }
+  .container__logos_redes {
+    text-align: center; }
+  .col-lg-6 {
+    text-align: center; }
+    .col-lg-6 .nav {
+      justify-content: center; } }
 
 body {
   background-image: url(https://i.pinimg.com/564x/d3/05/6c/d3056c0fa96d87d05becad9a4b3f993f.jpg); }
@@ -292,13 +338,13 @@ body {
   transition: 1s;
   transform: scale(1.1); }
 
-.col-lg-6 .nav .nav-item {
+.nav .nav-item {
   margin-bottom: 6vh; }
-  .col-lg-6 .nav .nav-item .item {
+  .nav .nav-item .item {
     text-decoration: none;
     margin-left: 2rem;
     color: white; }
-  .col-lg-6 .nav .nav-item .item:hover {
+  .nav .nav-item .item:hover {
     color: #c2001d;
     transition: 1s; }
 
