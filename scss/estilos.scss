@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Raleway:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Raleway:wght@300&display=swap");
 
 @import "_texto.scss";
 @import "_imagenes.scss";
@@ -11,17 +11,16 @@ body {
 .navbar {
   height: 15vh;
   min-height: 8vh;
-    .container-fluid {
-      .navbar-brand {
-        
-        img{
-          height: 20vh;
-        }
-        img:hover {
-          transition: 1s;
-          transform: scale(1.1);
-        }
+  .container-fluid {
+    .navbar-brand {
+      img {
+        height: 20vh;
       }
+      img:hover {
+        transition: 1s;
+        transform: scale(1.1);
+      }
+    }
   }
 }
 #footer {
@@ -50,34 +49,34 @@ body {
 }
 
 .col-lg-6 {
-    #container__logo-footer:hover {
-        transition: 1s;
-        transform: scale(1.1);
+  #container__logo-footer:hover {
+    transition: 1s;
+    transform: scale(1.1);
+  }
+}
+.nav {
+  .nav-item {
+    margin-bottom: 6vh;
+    .item {
+      text-decoration: none;
+      margin-left: 2rem;
+      color: $color-terciario;
+    }
+    .item:hover {
+      color: $color-primario;
+      transition: 1s;
     }
   }
-  .nav {
-    .nav-item {
-        margin-bottom: 6vh;
-      .item {
-        text-decoration: none;
-        margin-left: 2rem;
-        color: $color-terciario;
-      }
-      .item:hover {
-        color: $color-primario;
-        transition: 1s;
-      }
-    }
-  }
+}
 .mb-3 {
-        margin-top: 3vh;
-        margin-right: 2vw;
-    .form-label {
-        color: $color-terciario;
-    }
-    .btn {
-        margin-top: 1vh;
-    }
+  margin-top: 3vh;
+  margin-right: 2vw;
+  .form-label {
+    color: $color-terciario;
+  }
+  .btn {
+    margin-top: 1vh;
+  }
 }
 
 .collapse {
@@ -91,7 +90,7 @@ body {
   .dropdown-menu {
     background-color: black;
     .dropdown-item {
-      color:white;
+      color: white;
       font-family: $fuente-terciaria;
       text-transform: uppercase;
     }

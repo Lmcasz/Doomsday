@@ -1,43 +1,42 @@
-@media (max-width: 992px) { 
+@media (max-width: 992px) {
   .navbar {
     #container__logo_doomsday {
       width: 250px;
     }
   }
-    #socialLogos {
-        margin-left: 80px;
-    }
-    .follow-doomsday {
-        margin-left: 100px;
-    }
-    .navbar {
-        height: 2vh;
-          .container-fluid {
-            .navbar-brand {
-              
-              img{
-                height: 20vh;
-                padding: 0px;
-              }
-            }
-          }
-      }
-      .container-fluid {
-        .container__text_h2 {
-          font-size: 4vh;
+  #socialLogos {
+    margin-left: 80px;
+  }
+  .follow-doomsday {
+    margin-left: 100px;
+  }
+  .navbar {
+    height: 2vh;
+    .container-fluid {
+      .navbar-brand {
+        img {
+          height: 20vh;
+          padding: 0px;
         }
-    }
-    header {
-      nav {
-          div {
-              a {
-                  #container__logo_doomsday {
-                      height: 80px;
-                      width: 200px;
-                  }
-              }
-          }
       }
+    }
+  }
+  .container-fluid {
+    .container__text_h2 {
+      font-size: 4vh;
+    }
+  }
+  header {
+    nav {
+      div {
+        a {
+          #container__logo_doomsday {
+            height: 80px;
+            width: 200px;
+          }
+        }
+      }
+    }
   }
   .container__logos_redes {
     text-align: center;
@@ -48,127 +47,122 @@
       justify-content: center;
     }
   }
-  }
-@media (max-width: 768px) { 
+}
+@media (max-width: 768px) {
   .container-fluid {
     .row {
       .container__text_h1 {
-      font-size: 80px;
+        font-size: 80px;
+      }
     }
-  }
     .container__text_h2 {
       font-size: 30px;
     }
-}
+  }
   .navbar {
     height: 2vh;
-      .container-fluid {
-        .navbar-brand {
-          img{
-            height: 20vh;
-            padding: 0px;
-          }
+    .container-fluid {
+      .navbar-brand {
+        img {
+          height: 20vh;
+          padding: 0px;
         }
       }
-      #container__logo_doomsday {
-        width: 210px;
-        height:60px;
-      }
+    }
+    #container__logo_doomsday {
+      width: 210px;
+      height: 60px;
+    }
   }
-.container {
-  .container__text_h2_her {
-  font-size: 2.5em;
-
+  .container {
+    .container__text_h2_her {
+      font-size: 2.5em;
+    }
+    #container__row_text_h2_her {
+      text-align: center;
+    }
+    .container__text_h3_her {
+      font-size: 15px;
+    }
   }
-  #container__row_text_h2_her {
+  .container__logos_redes {
     text-align: center;
+    margin-bottom: 40px;
   }
-  .container__text_h3_her {
-    font-size: 15px;
-  }
-
-}
-.container__logos_redes {
-  text-align: center;
-  margin-bottom: 40px;
-}
-.col-lg-6 {
-  text-align: center;
-  #container__logo-footer {
-    width: 300px;
-    margin-right: 30px;
-  }
-  .nav {
-    justify-content: center;
+  .col-lg-6 {
+    text-align: center;
+    #container__logo-footer {
+      width: 300px;
+      margin-right: 30px;
+    }
+    .nav {
+      justify-content: center;
+    }
   }
 }
-}
- @media (max-width: 480px) { 
-   .container-fluid {
+@media (max-width: 480px) {
+  .container-fluid {
     .row .container__text_h1 {
       font-size: 3em;
     }
-      .container__text_h2 {
-        font-size: 2em;
-      }
+    .container__text_h2 {
+      font-size: 2em;
+    }
   }
-.navbar {
+  .navbar {
     height: 2vh;
-      .container-fluid {
-        .navbar-brand {
-          
-          img{
-            height: 20vh;
-            padding: 0px;
-          }
+    .container-fluid {
+      .navbar-brand {
+        img {
+          height: 20vh;
+          padding: 0px;
         }
       }
+    }
   }
   .container-fluid {
     div {
-    .container__text_h2 {
+      .container__text_h2 {
+        font-size: 20px;
+        text-shadow: -0.02em 0 white, 0.02em 0 cyan;
+        font-weight: bolder;
+      }
+    }
+  }
+  header {
+    nav {
+      div {
+        a {
+          #container__logo_doomsday {
+            height: 80px;
+            width: 200px;
+          }
+        }
+      }
+    }
+  }
+  .container {
+    .container__text_h2_her {
+      font-size: 2em;
+    }
+    #container__row_text_h2_her {
+      text-align: center;
+    }
+    .container__text_h3_her {
       font-size: 20px;
-      text-shadow: -0.02em 0 white, 0.02em 0 cyan;
-      font-weight: bolder;
+    }
+  }
+  .container__logos_redes {
+    text-align: center;
+  }
+  .col-lg-6 {
+    text-align: center;
+    .nav {
+      justify-content: center;
     }
   }
 }
-header {
-  nav {
-      div {
-          a {
-              #container__logo_doomsday {
-                  height: 80px;
-                  width: 200px;
-              }
-          }
-      }
-  }
-}
-.container {
-  .container__text_h2_her {
-  font-size: 2em;
-
-  }
-  #container__row_text_h2_her {
-    text-align: center;
-  }
-  .container__text_h3_her {
-    font-size: 20px;
-  }
-
-}
-.container__logos_redes {
-  text-align: center;
-}
-.col-lg-6 {
-  text-align: center;
-  .nav {
-    justify-content: center;
-  }
-}
-}
-@media (max-width: 360px) { 
+@media (max-width: 360px) {
   .container-fluid {
     .container__text_h2 {
       font-size: 15px;
@@ -182,12 +176,10 @@ header {
     .row .container__text_h1 {
       font-size: 3em;
     }
-
   }
   .container {
     .container__text_h2_her {
-    font-size: 1.5em;
-
+      font-size: 1.5em;
     }
     #container__row_text_h2_her {
       text-align: center;
@@ -195,7 +187,6 @@ header {
     .container__text_h3_her {
       font-size: 15px;
     }
-  
   }
   .container__logos_redes {
     text-align: center;
@@ -206,20 +197,20 @@ header {
       justify-content: center;
     }
     #container__logo-footer {
-      margin:0px;
+      margin: 0px;
       padding-right: 20px;
       padding-bottom: 20px;
     }
-}
-#copyright {
-  background-color: $color-primario;
-  height: 2em;
-  .copyright__text {
-    color: $color-secundario;
-    font-size: 12px;
-    margin: 0px;
-    height: 2vh;
-    font-family: $fuente-terciaria;
   }
-}
+  #copyright {
+    background-color: $color-primario;
+    height: 2em;
+    .copyright__text {
+      color: $color-secundario;
+      font-size: 12px;
+      margin: 0px;
+      height: 2vh;
+      font-family: $fuente-terciaria;
+    }
+  }
 }
