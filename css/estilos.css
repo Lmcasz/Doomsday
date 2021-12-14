@@ -376,7 +376,8 @@ body {
   .collapse .dropdown-menu .dropdown-item {
     color: white;
     font-family: "Raleway", sans-serif;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    width: 100%; }
   .collapse .dropdown-menu .dropdown-item:hover {
     background-color: white;
     color: red; }
