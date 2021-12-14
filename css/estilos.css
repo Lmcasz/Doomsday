@@ -34,7 +34,7 @@
   -webkit-background-clip: text;
   animation: animate 60s linear infinite;
   font-size: 8em;
-  color: rgba(255, 0, 0, 0.548);
+  color: rgba(255, 0, 0, 0.616);
   background-image: url(https://ih1.redbubble.net/image.835574599.9545/flat,750x1000,075,f.jpg); }
 
 .container-fluid .container__text_h1 {
@@ -45,8 +45,9 @@
 
 .container-fluid .h1-card {
   background-color: black;
-  margin: 1em;
-  height: fit-content; }
+  height: fit-content;
+  margin-top: 1em;
+  margin-bottom: 2em; }
 
 @keyframes animate {
   0% {
@@ -84,16 +85,14 @@
   text-align: center; }
 
 #copyright {
-  background-color: #333533;
-  margin: 0px;
-  height: 3vh; }
+  background-color: #c2001d;
+  height: auto; }
   #copyright .copyright__text {
-    color: white;
+    color: black;
     font-size: 0.9rem;
     margin: 0px;
-    height: 3vh;
-    font-family: "Raleway", sans-serif;
-    padding-top: 1vh; }
+    height: 2vh;
+    font-family: "Raleway", sans-serif; }
 
 .container .row .col-lg-4 .container__img_text {
   border-radius: 1rem;
@@ -171,14 +170,11 @@ header nav div a #container__logo_doomsday {
   max-width: 100%;
   filter: grayscale(1);
   z-index: 1;
-  margin: 1em; }
+  margin-bottom: 2em; }
 
 .container .row .col-lg-4 .container__img:hover {
   filter: none;
   transition: 1s; }
-
-.container .row .col-lg-4 .col-lg-4 {
-  padding: 10px; }
 
 #her__container {
   margin-top: 4em;
@@ -193,6 +189,10 @@ header nav div a #container__logo_doomsday {
   #her__container .row .container__img_clothes_her:hover {
     transition: 2s;
     transform: scale(1.1); }
+
+.row #carousel .carousel-item img {
+  justify-self: center;
+  width: 80%; }
 
 @media (max-width: 992px) {
   .navbar #container__logo_doomsday {
@@ -219,6 +219,10 @@ header nav div a #container__logo_doomsday {
       justify-content: center; } }
 
 @media (max-width: 768px) {
+  .container-fluid .row .container__text_h1 {
+    font-size: 80px; }
+  .container-fluid .container__text_h2 {
+    font-size: 30px; }
   .navbar {
     height: 2vh; }
     .navbar .container-fluid .navbar-brand img {
@@ -227,12 +231,6 @@ header nav div a #container__logo_doomsday {
     .navbar #container__logo_doomsday {
       width: 210px;
       height: 60px; }
-  .container-fluid .container__text_h2 {
-    font-size: 4vh; }
-  .container-fluid .row .container__text_h1 {
-    font-size: 4em; }
-  .container-fluid .container__text_h2 {
-    font-size: 3em; }
   .container .container__text_h2_her {
     font-size: 2.5em; }
   .container #container__row_text_h2_her {
@@ -282,7 +280,8 @@ header nav div a #container__logo_doomsday {
 
 @media (max-width: 360px) {
   .container-fluid .container__text_h2 {
-    font-size: 15px; }
+    font-size: 15px;
+    letter-spacing: 3px; }
   .container-fluid #container__row_text_h2 {
     text-align: center; }
   .container-fluid .row .container__text_h1 {
@@ -298,7 +297,20 @@ header nav div a #container__logo_doomsday {
   .col-lg-6 {
     text-align: center; }
     .col-lg-6 .nav {
-      justify-content: center; } }
+      justify-content: center; }
+    .col-lg-6 #container__logo-footer {
+      margin: 0px;
+      padding-right: 20px;
+      padding-bottom: 20px; }
+  #copyright {
+    background-color: #c2001d;
+    height: 2em; }
+    #copyright .copyright__text {
+      color: black;
+      font-size: 12px;
+      margin: 0px;
+      height: 2vh;
+      font-family: "Raleway", sans-serif; } }
 
 body {
   background-image: url(https://i.pinimg.com/564x/d3/05/6c/d3056c0fa96d87d05becad9a4b3f993f.jpg); }

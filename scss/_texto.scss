@@ -53,7 +53,7 @@ $contraste: "Poppins", sans-serif;
     -webkit-background-clip: text;
     animation: animate 60s linear infinite;
     font-size: 8em;
-    color: rgba(255, 0, 0, 0.548);
+    color: rgba(255, 0, 0, 0.616);
     background-image: url(https://ih1.redbubble.net/image.835574599.9545/flat,750x1000,075,f.jpg);
   }
   .container__text_h1 {
@@ -64,8 +64,9 @@ $contraste: "Poppins", sans-serif;
   }
   .h1-card{
     background-color: black;
-    margin:1em;
     height: fit-content;
+    margin-top: 1em;
+    margin-bottom: 2em;
   }
 }
 @keyframes animate {
@@ -80,7 +81,7 @@ $contraste: "Poppins", sans-serif;
   .container__text_h2_her {
     color: $color-secundario;
     font-size: 4em;
-    height: fit-content;
+        height: fit-content;
     text-transform: uppercase;
     background-color: $color-secundario;
     color: $color-primario;
@@ -112,16 +113,14 @@ $contraste: "Poppins", sans-serif;
 
 }
 #copyright {
-  background-color: #333533;
-  margin: 0px;
-  height: 3vh;
+  background-color: $color-primario;
+  height: auto;
   .copyright__text {
-    color: $color-terciario;
+    color: $color-secundario;
     font-size: 0.9rem;
     margin: 0px;
-    height: 3vh;
+    height: 2vh;
     font-family: $fuente-terciaria;
-    padding-top: 1vh;
   }
 }
 .container {
