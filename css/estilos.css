@@ -312,8 +312,14 @@ header nav div a #container__logo_doomsday {
       height: 2vh;
       font-family: "Raleway", sans-serif; } }
 
+html {
+  scroll-behavior: smooth; }
+
 body {
   background-image: url(https://i.pinimg.com/564x/d3/05/6c/d3056c0fa96d87d05becad9a4b3f993f.jpg); }
+
+img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"] {
+  display: none; }
 
 .navbar {
   height: 15vh;
