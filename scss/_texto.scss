@@ -33,10 +33,7 @@ $contraste: "Poppins", sans-serif;
     margin-top: 1em;
     padding: 1rem;
     font-family: $fuente-secundario;
-    text-shadow:
-          0 0 17px $color-primario,
-          0 0 47px $color-primario,
-          0 0 107px $color-primario;
+    text-shadow: 0 0 17px $color-primario, 0 0 47px $color-primario, 0 0 107px $color-primario;
     letter-spacing: 1em;
     z-index: 1;
     white-space: wrap;
@@ -62,7 +59,7 @@ $contraste: "Poppins", sans-serif;
     text-transform: uppercase;
     text-align: center;
   }
-  .h1-card{
+  .h1-card {
     background-color: black;
     height: fit-content;
     margin-top: 1em;
@@ -81,7 +78,7 @@ $contraste: "Poppins", sans-serif;
   .container__text_h2_her {
     color: $color-secundario;
     font-size: 4em;
-        height: fit-content;
+    height: fit-content;
     text-transform: uppercase;
     background-color: $color-secundario;
     color: $color-primario;
@@ -89,10 +86,7 @@ $contraste: "Poppins", sans-serif;
     padding: 1rem;
     letter-spacing: 1em;
     font-family: $fuente-secundario;
-    text-shadow:
-    0 0 17px $color-primario,
-    0 0 30px $color-primario,
-    0 0 50px $color-primario,
+    text-shadow: 0 0 17px $color-primario, 0 0 30px $color-primario, 0 0 50px $color-primario;
   }
   #container__row_text_h2_her {
     text-align: center;
@@ -110,7 +104,6 @@ $contraste: "Poppins", sans-serif;
   #container__row_text_h3_her {
     text-align: center;
   }
-
 }
 #copyright {
   background-color: $color-primario;
@@ -151,28 +144,28 @@ $contraste: "Poppins", sans-serif;
     .col {
       background-image: url(https://i.pinimg.com/originals/30/89/32/3089327d41ec6ede2cf3ea1d31e9488c.jpg);
       .text-us {
-          font-size: 1em;
-          font-weight: 800;
-          font-weight: $color-secundario;
-          text-align: center;
-          width: 100%;
-        animation: typing 2s steps(22), .5s step-end infinite alternate;
+        font-size: 1em;
+        font-weight: 800;
+        font-weight: $color-secundario;
+        text-align: center;
+        width: 100%;
+        animation: typing 2s steps(22), 0.5s step-end infinite alternate;
         white-space: wrap;
         overflow: hidden;
         font-family: monospace;
         color: $color-terciario;
-    }
-    .text-us-important {
-      color: $color-primario;
-      text-align: center;
-      font-size: 2em;
-      font-family: $fuente-secundario;
+      }
+      .text-us-important {
+        color: $color-primario;
+        text-align: center;
+        font-size: 2em;
+        font-family: $fuente-secundario;
+      }
     }
   }
-}
 }
 @keyframes typing {
   from {
-    width: 0
+    width: 0;
   }
-} 
+}
